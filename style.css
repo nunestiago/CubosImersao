@@ -1,4 +1,16 @@
+<<<<<<< Codesandbox
+h1,
+h2,
+h3,
+body,
+p {
+=======
+/* * {
+  border: 3px solid red;
+} */
+
 h1, h2, h3, body, p {
+>>>>>>> GitHub
   margin: 0;
 }
 
@@ -18,7 +30,11 @@ img:hover {
 h1 {
   font-family: "Playfair Display", serif;
   font-size: 64px;
+<<<<<<< Codesandbox
   font-weight: normal;
+=======
+  
+>>>>>>> GitHub
 }
 
 h1 span {
@@ -33,6 +49,11 @@ h3 {
 
 header p {
   font-size: 24px;
+<<<<<<< Codesandbox
+}
+=======
+  padding-left: 3px;
+>>>>>>> GitHub
   }
 
 .t60 {
@@ -45,20 +66,39 @@ header {
 }
 
 body {
+<<<<<<< Codesandbox
+  background-color: #e5e5e5;
+=======
   background-color: #E5E5E5;
+>>>>>>> GitHub
+  font-family: 'Open Sans', sans-serif;
 }
 
 .divheader {
   display: inline-block;
+<<<<<<< Codesandbox
   margin-left: 0 0 10px 30px;
+=======
+  margin: 0 0 10px 30px;
+>>>>>>> GitHub
 }
 
 main {
+<<<<<<< Codesandbox
   padding: 100px 30px;
+=======
+  padding: 20px 30px;
+>>>>>>> GitHub
+  display: flex;
 }
 
 .colunamenor {
+<<<<<<< Codesandbox
   margin-top: 40;
+=======
+  margin-top: 90px;
+>>>>>>> GitHub
+  width: 340px;
 }
 
 .linha {
@@ -68,11 +108,19 @@ main {
 }
 
 .experiencias .linha {
+<<<<<<< Codesandbox
+  border-color: rgb(0, 140, 186);
+=======
   border-color: rgb(0, 140, 186)
+>>>>>>> GitHub
 }
 
 .formacao .linha {
+<<<<<<< Codesandbox
+  border-color: rgb(0, 186, 155);
+=======
   border-color: rgb(0, 186, 155)
+>>>>>>> GitHub
 }
 
 .colunamenor img {
@@ -83,9 +131,32 @@ main {
 }
 
 .colunamenor li {
+<<<<<<< Codesandbox
+  margin-top: 32px;
+=======
+  display: flex;
+>>>>>>> GitHub
   margin-top: 32px;
 }
 
+<<<<<<< Codesandbox
+.conteudo {
+  display: inline-block;
+=======
+.colunamenor li {
+  display: flex;
+>>>>>>> GitHub
+}
+
+<<<<<<< Codesandbox
+ul,
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+.periodo {
+=======
 .conteudo {
   display: inline-block;
 }
@@ -93,12 +164,85 @@ main {
 ul, ol {
   list-style-type: none;
   padding: 0;
-}
-
-.periodo {
+>>>>>>> GitHub
   font-size: 17px;
 }
 
+<<<<<<< Codesandbox
+.formacao {
+  margin-top: 32px;
+=======
+.periodo {
+  font-size: 17px;
+>>>>>>> GitHub
+}
+<<<<<<< Codesandbox
+
+=======
+
+>>>>>>> GitHub
 .formacao {
   margin-top: 32px;
 }
+
+.colunamaior {
+margin-left: 24px;
+
+}
+
+.habilidades h2 {
+  margin-top: 20px;
+  margin-bottom: 12px;
+  font-size: 54px;
+}
+
+.conthab h3 {
+  margin-bottom: 12px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.conthab p {
+  font-size: 20px;
+  
+}
+
+
+.conthab {
+  background-color: white;
+  border-radius: 10px;
+  padding: 16px;
+  margin: 12px;
+  width: 280px;
+}
+
+.progresso {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.nome {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.conthab li:first-child {
+  margin-top: 0px;
+}
+
+.barra0 {
+  width: 20%;
+  height: 4px;
+  background-color: rgba(0, 0, 0, 0.39);
+}
+
+.barra1 {
+  width: 20%;
+  height: 4px;
+  background-color: black;
+}
+
+.containercards {
+  display: flex;
+  justify-content: space-between;
