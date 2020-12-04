@@ -1,6 +1,4 @@
-* {
-
-}
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 
 :root {
   --color-Thunder: #383133;
@@ -90,6 +88,45 @@ main {
   border-color: rgba(135, 161, 194, 0.7)
 }
 
+/* contatos */
+
+a, a:hover {
+  text-decoration: none;
+}
+
+.socialbtns, .socialbtns ul, .socialbtns li {
+  margin: 0;
+  padding: 5px;
+  display: flex;
+  width: 340px;
+}
+
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.socialbtns .fa {
+  width: 40px;
+    height: 28px;
+  color: #7490b6;
+  background-color:  rgba(116, 144, 182, 0.2);
+  border: 1px solid #7490b6;
+  padding-top: 12px;
+  border-radius: 22px;
+  -moz-border-radius: 22px;
+  -webkit-border-radius: 22px;
+  -o-border-radius: 22px;
+}
+
+.socialbtns .fa:hover {
+  color: #c7c7d0;
+  background-color: #7490b6;
+  border: 1px solid #fff;
+}
+
+/* fim contatos */
+
 .colunamenor img {
   height: 40px;
   width: 40px;
@@ -125,7 +162,6 @@ ul, ol {
 
 .colunamaior {
 margin-left: 24px;
-
 }
 
 .habilidades h2 {
@@ -184,3 +220,48 @@ margin-left: 24px;
   display: flex;
   flex-wrap: wrap;
 }
+
+.projetos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projeto {
+  width: 392px;
+  padding: 24px;
+  background-color: #c7c7d0;
+  border-radius: 8px;
+  margin: 12px;
+}
+
+.projeto h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.projeto p {
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.projeto a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #7490b6;
+  color: #c7c7d0;
+  padding: 8px 24px;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 4px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 24px;
+}
+
+footer{
+  background-color: #7490b6;
+  color: #c7c7d0;
+  padding: 57px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  height: 12px;
+  }
