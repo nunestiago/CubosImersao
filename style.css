@@ -101,7 +101,7 @@ header p {
 }
 
 header {
-  background-color: rgb(135, 161, 194);
+  background-color: rgba(135, 161, 194, 0.623);
   padding: 16px 54px;
 }
 
@@ -112,7 +112,7 @@ body {
 
 .divheader {
   display: inline-block;
-  margin: 0 0 10px 30px;
+  margin: 20px 0 10px 30px;
 }
 
 main {
@@ -137,6 +137,40 @@ main {
 
 .formacao .linha {
   border-color: rgba(135, 161, 194, 0.7);
+}
+
+.colunamenor img {
+  height: 40px;
+  width: 40px;
+  border-radius: 6px;
+  margin-right: 8px;
+}
+
+.colunamenor h2 {
+  font-size: 20px;
+}
+
+.colunamenor li {
+  display: flex;
+  margin-top: 32px;
+}
+
+.conteudo {
+  display: inline-block;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+.periodo {
+  font-size: 17px;
+}
+
+.formacao {
+  margin-top: 32px;
 }
 
 /* contatos */
@@ -182,40 +216,6 @@ a:hover {
 }
 
 /* fim contatos */
-
-.colunamenor img {
-  height: 40px;
-  width: 40px;
-  border-radius: 6px;
-  margin-right: 8px;
-}
-
-.colunamenor h2 {
-  font-size: 20px;
-}
-
-.colunamenor li {
-  display: flex;
-  margin-top: 32px;
-}
-
-.conteudo {
-  display: inline-block;
-}
-
-ul,
-ol {
-  list-style-type: none;
-  padding: 0;
-}
-
-.periodo {
-  font-size: 17px;
-}
-
-.formacao {
-  margin-top: 32px;
-}
 
 .colunamaior {
   margin-left: 24px;
